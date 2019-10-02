@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 #include <iostream>
-
 #include "Sistema.h"
 #include "Concessionaria.h"
 #include "ItemVenda.h"
@@ -210,14 +209,5 @@ ItemVenda * Sistema::escolheCor()
    Menu menu("Cores disponiveis", opcoes);
 
    return (cores.at(menu.getEscolha()));  
-   };         
-   
-void Sistema:: imprimirOrcto()
-   {
-   // a fazer
-     
-     // FAZER BEM FEITO, COM BOA FORMATACAO DA INTERFACE DE USUARIO
-     
    };
    
-/* fim de arquivo */
